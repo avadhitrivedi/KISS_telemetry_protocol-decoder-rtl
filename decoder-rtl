@@ -9,8 +9,8 @@ module decoder(input clk,
   
   parameter IDLE=2'b00,
             FRAME=2'b01,
-            s1=2'b01,
-            s3=2'b10;
+            s1=2'b10,
+            s3=2'b11;
   
   reg[2:0] state;
   reg[8:0] cnt;
